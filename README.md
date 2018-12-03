@@ -3,7 +3,15 @@
 Minimalistic generation of random colourful particles that move (Can be used as a background) :stuck_out_tongue:
 
 
-## Initialization
+## Usage
+
+Clone or Zip the repository, include the `porticle.js` in your html `header` along with the file `porticle.css`.
+```
+<script src="porticle.js"></script>
+<link rel="stylesheet" href="porticle.css">
+```
+
+### Initialization
 ```
 function porticle(numParts, numSize) {
 
@@ -17,8 +25,8 @@ function porticle(numParts, numSize) {
 <html>
   <head>
     <title>Porticle.js</title>
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <script src="porticle.js"></script>
+    <link rel="stylesheet" href="porticle.css">
   </head>
   <body>
   </body>
@@ -27,7 +35,7 @@ function porticle(numParts, numSize) {
   </script>
 </html>
 ```
-## Screenshot
+### Screenshot
 ####
 ![alt](ss1.png)
 ####
