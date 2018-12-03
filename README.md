@@ -5,6 +5,15 @@ Minimalistic generation of random colourful particles that move (Can be used as 
 
 ## Initialization
 ```
+function porticle(numParts, numSize) {
+
+}
+```
+- numParts : Number of bubbles
+- numSize : maximum size of any bubble
+
+####
+```
 <html>
   <head>
     <title>Porticle.js</title>
@@ -14,10 +23,12 @@ Minimalistic generation of random colourful particles that move (Can be used as 
   <body>
   </body>
   <script>
-    var porticle = porticle(100);
+    var porticle = porticle(100, 30);
   </script>
 </html>
 ```
 ## Screenshot
 ####
-![alt](ss.png)
+![alt](ss1.png)
+####
+![alt](ss2.png)
