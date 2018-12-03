@@ -18,3 +18,6 @@ Minimalistic generation of random colourful particles that move (Can be used as 
   </script>
 </html>
 ```
+## Screenshot
+####
+![alt](ss.png)
