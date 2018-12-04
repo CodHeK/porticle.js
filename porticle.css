@@ -12,6 +12,14 @@
   animation: move1 50s infinite;
 }
 
+.dot2 {
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  animation: move2 50s infinite;
+}
+
+
 @keyframes move {
   0% {
     transform: translateX(10px);
@@ -42,6 +50,25 @@
    }
    75% {
      transform: translateY(-20px);
+   }
+   100% {
+     transform: translateZ(-45px);
+   }
+}
+
+
+@keyframes move2 {
+  0% {
+    transform: translateX(10px);
+  }
+   25% {
+     transform: translateY(70px);
+   }
+   50% {
+     transform: translateX(-190px);
+   }
+   75% {
+     transform: translateY(20px);
    }
    100% {
      transform: translateZ(-45px);
