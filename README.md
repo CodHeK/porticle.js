@@ -13,12 +13,13 @@ Clone or Zip the repository, include the `porticle.js` in your html `header` alo
 
 ### Initialization
 ```
-function porticle(numParts, numSize) {
+function porticle(numParts, numSize, type) {
 
 }
 ```
 - numParts : Number of bubbles
 - numSize : maximum size of any bubble
+- type : Includes 3 modes, ["mono", "color", "mix"]
 
 ####
 ```
@@ -31,12 +32,20 @@ function porticle(numParts, numSize) {
   <body>
   </body>
   <script>
-    var porticle = porticle(100, 30);
+    var porticle = porticle(100, 30, "mix");
   </script>
 </html>
 ```
-### Screenshot
+### Modes
 ####
-![alt](ss1.png)
+#### `mono` :
+Monochromatic color scheme, shades between white and black.
+![alt](/ss/mono.png)
 ####
-![alt](ss2.png)
+#### `color` :
+Generated bubbles of random colors.
+![alt](/ss/color.png)
+####
+#### `mix` :
+Mix of the above two modes, has shades between black & white mixed with colorful bubbles.
+![alt](/ss/mix.png)
