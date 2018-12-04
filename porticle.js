@@ -3,6 +3,7 @@ var dots = []
 setTimeout(print, 500);
 
 function porticle(numParts, numSize, type) {
+  dots = []
   if(type === "mono") {
     for(var i=1;i<=numParts/2;i++) {
       var dot = document.createElement('div');
@@ -111,7 +112,6 @@ function porticle(numParts, numSize, type) {
 
 function print() {
   for(dot in dots) {
-    console.log(dots[dot]);
     document.body.appendChild(dots[dot]);
   }
 }

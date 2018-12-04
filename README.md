@@ -1,6 +1,8 @@
 # Porticle.js
 
 Minimalistic generation of random colourful particles that move (Can be used as a background) :stuck_out_tongue:
+#####
+`See how it looks` : [https://codhek.github.io/porticle.js/](https://codhek.github.io/porticle.js/)
 
 
 ## Usage
